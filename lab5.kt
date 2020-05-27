@@ -87,18 +87,26 @@ fun main(){
     print("enter a y val: ")
     var y = readLine().toString().toInt()
     greater(x,y)
+    println()
 
     //prob 2
     print("enter an age: ")
     var age = readLine().toString().toInt()
     age(age)
+    println()
+    print("test age 25: ")
+    age(25)
+    println()
+    print("test age 65: ")
+    age(65)
+    println()
 
     //prob 3
     prob3()
-
+    println()
     //prob 4
     readFile("readtest.txt")
-
+    println()
     //prob 5
     inherit()
 }
